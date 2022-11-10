@@ -17,14 +17,14 @@ import android.widget.Toast;
 
 public class MainActivity6 extends AppCompatActivity {
     private static final int REQUEST_CALL = 1;
-    private EditText meditTextNumber;
+    private EditText editTextNumber;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main6);
 
-        meditTextNumber = findViewById(R.id.editTextPhone4);
+        editTextNumber = findViewById(R.id.editTextPhone4);
         ImageView imageCall = findViewById(R.id.imageButton2);
 
         imageCall.setOnClickListener(new View.OnClickListener() {
@@ -36,7 +36,7 @@ public class MainActivity6 extends AppCompatActivity {
     }
 
     private void makePhoneCall(){
-        String number = meditTextNumber.getText().toString();
+        String number = editTextNumber.getText().toString();
         if(number.trim().length() > 0){
             if(ContextCompat.checkSelfPermission(MainActivity6.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED){
                 ActivityCompat.requestPermissions(MainActivity6.this, new String[]{Manifest.permission.CALL_PHONE}, REQUEST_CALL);
@@ -47,7 +47,7 @@ public class MainActivity6 extends AppCompatActivity {
             }
         }
         else {
-            Toast.makeText(MainActivity6.this, "Enter phone number", Toast.LENGTH_SHORT);
+            Toast.makeText(MainActivity6.this, "Enter phone number", Toast.LENGTH_SHORT).show();
         }
     }
 
