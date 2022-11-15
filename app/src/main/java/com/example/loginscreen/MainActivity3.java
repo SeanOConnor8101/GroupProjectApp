@@ -11,6 +11,7 @@ public class MainActivity3 extends AppCompatActivity {
     private Button investButton;
     private Button buttonSupport;
     private Button callBrokerButton;
+    private Button financialInfoButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,12 +20,13 @@ public class MainActivity3 extends AppCompatActivity {
         investButton = (Button) findViewById(R.id.invest);
         buttonSupport = (Button) findViewById(R.id.button8);
         callBrokerButton = (Button) findViewById(R.id.requestProfessional);
+        financialInfoButton = (Button) findViewById(R.id.financialInfo);
 
 
         investButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openMainActivity4();
+                openMainActivity8();
             }
         });
 
@@ -42,6 +44,13 @@ public class MainActivity3 extends AppCompatActivity {
             }
         });
 
+        financialInfoButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openMainActivity10();
+            }
+        });
+
     }
 
     public void openMainActivity6(){
@@ -54,8 +63,13 @@ public class MainActivity3 extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void openMainActivity4(){
-        Intent intent = new Intent(this, MainActivity4.class);
+    public void openMainActivity8(){
+        Intent intent = new Intent(this, MainActivity8.class);
+        startActivity(intent);
+    }
+
+    public void openMainActivity10(){
+        Intent intent = new Intent(this, MainActivity10.class);
         startActivity(intent);
     }
 }
