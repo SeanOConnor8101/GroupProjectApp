@@ -4,9 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity10">
+    tools:context=".MainActivity10"
+    android:background="#0000FF">
 
     <TextView
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,6 +22,8 @@
         app:layout_constraintVertical_bias="0.153" />
 
     <TextView
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

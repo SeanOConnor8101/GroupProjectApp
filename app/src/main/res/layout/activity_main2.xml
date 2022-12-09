@@ -4,9 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity2">
+    tools:context=".MainActivity2"
+    android:background="#0000FF">
 
     <EditText
+        app:backgroundTint="#03A9F4"
         android:id="@+id/editTextTextPersonName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -20,6 +22,7 @@
         app:layout_constraintVertical_bias="0.517" />
 
     <EditText
+        app:backgroundTint="#03A9F4"
         android:id="@+id/editTextTextPersonName2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -33,6 +36,7 @@
         app:layout_constraintVertical_bias="0.399" />
 
     <TextView
+        android:textColor="#03A9F4"
         android:id="@+id/textViewFinancialInstitute"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -45,6 +49,7 @@
         app:layout_constraintVertical_bias="0.358" />
 
     <TextView
+        android:textColor="#03A9F4"
         android:id="@+id/textViewBroker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -57,6 +62,7 @@
         app:layout_constraintVertical_bias="0.471" />
 
     <Button
+        app:backgroundTint="#03A9F4"
         android:id="@+id/Next2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -69,6 +75,8 @@
         app:layout_constraintVertical_bias="0.651" />
 
     <TextView
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
         android:id="@+id/FinancialInstituteTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

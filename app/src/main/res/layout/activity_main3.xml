@@ -4,9 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity3">
+    tools:context=".MainActivity3"
+    android:background="#0000FF">
 
     <TextView
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
         android:id="@+id/homeTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,6 +22,7 @@
         app:layout_constraintVertical_bias="0.16" />
 
     <Button
+        app:backgroundTint="#03A9F4"
         android:id="@+id/invest"
         android:layout_width="108dp"
         android:layout_height="45dp"
@@ -31,6 +35,7 @@
         app:layout_constraintVertical_bias="0.354" />
 
     <Button
+        app:backgroundTint="#03A9F4"
         android:id="@+id/financialInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -43,6 +48,7 @@
         app:layout_constraintVertical_bias="0.436" />
 
     <Button
+        app:backgroundTint="#03A9F4"
         android:id="@+id/pricePredictions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -55,6 +61,7 @@
         app:layout_constraintVertical_bias="0.519" />
 
     <Button
+        app:backgroundTint="#03A9F4"
         android:id="@+id/requestProfessional"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -67,6 +74,7 @@
         app:layout_constraintVertical_bias="0.601" />
 
     <Button
+        app:backgroundTint="#03A9F4"
         android:id="@+id/ratingReview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -79,6 +87,7 @@
         app:layout_constraintVertical_bias="0.767" />
 
     <Button
+        app:backgroundTint="#03A9F4"
         android:id="@+id/button8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

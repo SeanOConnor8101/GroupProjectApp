@@ -4,13 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity9">
+    tools:context=".MainActivity9"
+    android:background="#0000FF">
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="339dp"
+        android:layout_height="112dp"
         android:text="To place an order via your broker, please fill in the following"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -19,6 +22,7 @@
         app:layout_constraintVertical_bias="0.098" />
 
     <TextView
+        android:textColor="#03A9F4"
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -31,6 +35,7 @@
         app:layout_constraintVertical_bias="0.33" />
 
     <EditText
+        app:backgroundTint="#03A9F4"
         android:id="@+id/editTextTextPersonName3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -44,6 +49,7 @@
         app:layout_constraintVertical_bias="0.37" />
 
     <TextView
+        android:textColor="#03A9F4"
         android:id="@+id/textView11"
         android:layout_width="353dp"
         android:layout_height="30dp"
@@ -55,6 +61,7 @@
         app:layout_constraintVertical_bias="0.532" />
 
     <EditText
+        app:backgroundTint="#03A9F4"
         android:id="@+id/editTextNumberDecimal2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -68,6 +75,7 @@
         app:layout_constraintVertical_bias="0.612" />
 
     <Button
+        app:backgroundTint="#03A9F4"
         android:id="@+id/button12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
